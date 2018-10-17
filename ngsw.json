@@ -1,0 +1,71 @@
+{
+  "configVersion": 1,
+  "index": "https://realronchi.github.io/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://realronchi.github.io/favicon.ico",
+        "https://realronchi.github.io/index.html",
+        "https://realronchi.github.io/main.15b346bc4117d4b58747.js",
+        "https://realronchi.github.io/polyfills.f6ae3e8b63939c618130.js",
+        "https://realronchi.github.io/runtime.ec2944dd8b20ec099bf3.js",
+        "https://realronchi.github.io/styles.6faedebb2a0e50c4221b.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://realronchi.github.io/assets/icons/icon-128x128.png",
+        "https://realronchi.github.io/assets/icons/icon-144x144.png",
+        "https://realronchi.github.io/assets/icons/icon-152x152.png",
+        "https://realronchi.github.io/assets/icons/icon-192x192.png",
+        "https://realronchi.github.io/assets/icons/icon-384x384.png",
+        "https://realronchi.github.io/assets/icons/icon-512x512.png",
+        "https://realronchi.github.io/assets/icons/icon-72x72.png",
+        "https://realronchi.github.io/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://realronchi.github.io/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://realronchi.github.io/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://realronchi.github.io/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://realronchi.github.io/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://realronchi.github.io/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://realronchi.github.io/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://realronchi.github.io/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://realronchi.github.io/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://realronchi.github.io/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://realronchi.github.io/index.html": "edaf34a820d97cedd044f6066461a979fcbcc58b",
+    "https://realronchi.github.io/main.15b346bc4117d4b58747.js": "8a2607a28a548cef8b6bc22a02783eb5f94276ed",
+    "https://realronchi.github.io/polyfills.f6ae3e8b63939c618130.js": "ef2035f0504b4f77eac510c33595c81a5d09e33f",
+    "https://realronchi.github.io/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://realronchi.github.io/styles.6faedebb2a0e50c4221b.css": "8e5f6cc6fe20f982aa11b6c8ef8663ad9bb277a4"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
